@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+}
+
+div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  width: 400px;
+}
+ul {
+  width: 50%;
+  margin: 2px auto;
+}
+
+li {
+  text-align: center;
+}

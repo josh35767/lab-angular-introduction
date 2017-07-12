@@ -1,0 +1,15 @@
+.all-pictures {
+  width: 100%;
+  text-align: center;
+}
+
+figure {
+  display: inline-block;
+  width: 32%;
+  margin: 0 auto;
+}
+
+figure img {
+  width: 90%;
+  margin: 0 auto;
+}

@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!!
+  </h1>
+</div>
+
+<div class = "info-container">
+  <div class= "row">
+    <div *ngFor="let team of randomArray" class="column">
+      <div class="info-content">
+        <h2>{{team.year}}</h2>
+        <h2>{{team.name}}</h2>
+        <img src="{{team.img}}">
+        <h4>Best Players</h4>
+        <ul *ngFor="let player of team.bestPlayers">
+          <li>{{player}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
